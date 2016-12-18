@@ -330,7 +330,7 @@ if __name__ == '__main__':
             return power_delta
 
         # Now we can call faraday.received_power
-        pulse_durations = [50e-6, 350e-6, 700e-6]
+        pulse_durations = [50e-6, 250e-6, 700e-6]
 
         time_boundary = 2 * altitude_boundary / constants.speed_of_light
         receiver_time = np.linspace(0, time_boundary, num_of_iterations)
